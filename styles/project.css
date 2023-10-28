@@ -1,11 +1,12 @@
 :root {
-  --primary-color: #f9f7fe;
-  --secondary-color: blue;
+  --branding-color: purple;
+  --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 body {
   font-family: var(--default-font-family);
+  line-height: 1.5;
 }
 h1,
 h2,
@@ -16,44 +17,64 @@ h4 {
   color: black;
 }
 h1 {
-  font-size: 96px;
+  font-size: 44px;
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 22px;
 }
 p {
   text-transform: capitalize;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
 }
 
 .hero {
   text-align: center;
-  background-color: var(--primary-color);
-  padding: 160px 20px;
+  background: var(--secondary-color);
+  padding: 100px 10px;
 }
 
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
 .hero h2 {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
   font-family: var(--default-font-familyl);
 }
-.btn-primary {
-  color:var(--secondary-color);
+.btn-branding {
+  color: var(--branding-color);
   border-radius: 4px;
+  border: 1px solid var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
-.btn-primary-yoghurt {
-  color: var(--secondary-color);
+.btn-branding-yoghurt {
+  color: var(--branding-color);
   line-height: 27px;
   padding: 15px 30px;
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+}
+.btn-branding-weather {
+  color: var(--branding-color);
+  line-height: 27px;
+  padding: 15px 30px;
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+}
+.btn-branding-manifestation {
+  color: var(--branding-color);
+  line-height: 27px;
+  padding: 15px 30px;
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
 }
 .img-fluid {
@@ -66,6 +87,11 @@ svg {
 }
 .project-desciption {
   padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .hero {
+    padding: 80px 20px;
+  }
 }
 .mb-5 {
   margin-bottom: 3rem !important;
