@@ -1,5 +1,3 @@
-/*font-family: 'Playfair Display SC', serif;
-font-family: 'Poppins', sans-serif;*/
 :root {
   --primary-color: #f9f7fe;
   --secondary-color: blue;
@@ -30,24 +28,13 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-.hero p {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
-  color: #272142;
-  margin-top: 275px;
-}
-div {
-  display: block;
-}
-@media (max-width: 960px) .hero {
-  padding: 65px 20px;
-}
+
 .hero {
   text-align: center;
   background-color: var(--primary-color);
-  padding: 120px 60px;
+  padding: 160px 20px;
 }
+
 .hero h2 {
   font-weight: normal;
   line-height: 2;
@@ -55,6 +42,7 @@ div {
   font-family: var(--default-font-familyl);
 }
 .btn-primary {
+  color:var(--secondary-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
