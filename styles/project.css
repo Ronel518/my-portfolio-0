@@ -17,11 +17,11 @@ h4 {
   color: black;
 }
 h1 {
-  font-size: 44px;
+  font-size: 96px;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 44px;
 }
 p {
   text-transform: capitalize;
@@ -46,6 +46,20 @@ p {
   line-height: 2;
   font-size: 24px;
   font-family: var(--default-font-familyl);
+}
+.about-section{
+  padding: 100px 10px;
+}
+.about-section h1 {
+    font-size: 64px;
+    line-height: 80px;
+}
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+.about-section-content{
+  margin: 30px;
 }
 .btn-branding {
   color: var(--branding-color);
@@ -92,6 +106,18 @@ svg {
   .hero {
     padding: 80px 20px;
   }
+  h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 22px;
+}
+.about-section{
+  text-align: center;
+  padding: 0px;
+}
+
 }
 .mb-5 {
   margin-bottom: 3rem !important;
