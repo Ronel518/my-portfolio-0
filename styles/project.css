@@ -47,19 +47,29 @@ p {
   font-size: 24px;
   font-family: var(--default-font-familyl);
 }
-.about-section{
-  padding: 100px 10px;
+
+.content-container{
+  padding: 100px 20px;
+ 
 }
-.about-section h1 {
-    font-size: 64px;
-    line-height: 80px;
+.content h1 {
+    font-size:60px;
+    line-height:80px;
 }
-.about-section h2 {
+.content h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
 }
-.about-section-content{
+.content h3{
+  font-size:25px;
+  line-height:2;
+  font-family:var(--default-font-family);
+}
+.content{
   margin: 30px;
+}
+.content p{
+  font-size: 14px;
 }
 .btn-branding {
   color: var(--branding-color);
