@@ -77,18 +77,23 @@ p {
 }
 .contact-box{
 margin-top: 50px;
-border:navy;
-display:none;
 }
+.footer{
+  margin: 60px 0;
+}
+footer .contact-box{
+  padding: 30px 120px;
+}
+
 .btn-branding {
   color: var(--branding-color);
   border-radius: 4px;
-  border: 1px solid var(--branding-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  background-color:palevioletred
+  display:none;
 }
+
 .btn-branding-yoghurt {
   color: var(--branding-color);
   line-height: 27px;
@@ -140,11 +145,6 @@ svg {
 .email-link:hover{
   color:var(--branding-color);
 }
-.contact-box {
-    background: var(--secondary-color);
-    padding: 30px 50px;
-    border-radius: 10px;
-}
 footer .social-links a {
 line-height: 1px;
 margin:0 20px;
@@ -159,7 +159,6 @@ footer .social-links a:hover{
   color: white;
   background-color: var(--branding-color)
 }
-
 @media (max-width: 900px) {
   .navbar-expand-lg .navbar-toggler {
     display: none;
