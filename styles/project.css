@@ -112,7 +112,30 @@ svg {
 .project-desciption {
   padding: 120px 60px;
 }
+
+.logo{
+  max-width: 120px;
+}
+.navbar-nav .nav-link.active{
+  color: var(--branding-color)
+}
+.nav-item{
+  padding: 20px;
+}
+
+
 @media (max-width: 900px) {
+  .navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+.navbar-nav{
+text-align: right;
+display:none;
+
+}
+.navbar-toggler:hover {
+    text-decoration: none;
+}
   .hero {
     padding: 80px 20px;
   }
@@ -127,7 +150,6 @@ h2 {
   text-align: center;
   padding: 0px;
 }
-
 }
 .mb-5 {
   margin-bottom: 3rem !important;
