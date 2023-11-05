@@ -52,11 +52,11 @@ p {
 
 .content-container{
   padding: 100px 20px;
- 
 }
 .content h1 {
     font-size:60px;
-    line-height:80px;
+    line-height:150px;
+  
 }
 .content h2 {
     font-size: 18px;
@@ -73,9 +73,6 @@ p {
 .content p{
   font-size: 14px;
 
-}
-.contact-box{
-margin-top: 50px;
 }
 .footer{
   margin: 60px 0;
