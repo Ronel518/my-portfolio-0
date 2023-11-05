@@ -162,6 +162,12 @@ footer .social-links a:hover{
   .navbar-expand-lg .navbar-toggler {
     display: none;
 }
+.weather-code{
+  display: none;
+}
+.technologies{
+  display: none;
+}
 .navbar-nav{
 text-align: right;
 display:none;
